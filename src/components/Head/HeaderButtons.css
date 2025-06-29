@@ -1,0 +1,94 @@
+/*Обнуление отступов для UL*/
+.zeroUl {
+    position: absolute;
+    padding-inline-start: 0;
+    list-style-type: none;
+    margin: 0 0 0 0;
+}
+
+/*Блок кнопок*/
+.blockBtn {
+    position: absolute;
+    margin-top: 29px;
+    margin-left: 472px;
+    margin-bottom: 5px;
+    width: 497px;
+    height: 45px;
+    display: flex;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+/*О нас*/
+.headBtn1 {
+    font-family: 'Montserrat', sans-serif; /* Основной шрифт */
+    font-weight: 500; /* Средняя насыщенность */
+    position: absolute;
+    background-color: #1C1C1C;
+    color: #fff;
+    width: 53px;
+    height: 45px;
+    border: none;
+    cursor: pointer;
+    list-style-type: none;
+}
+
+/*Услуги*/
+.headBtn2 {
+    font-family: 'Montserrat', sans-serif; /* Основной шрифт */
+    font-weight: 500; /* Средняя насыщенность */
+    position: absolute;
+    margin-left: 82px;
+    background-color: #1C1C1C;
+    color: #fff;
+    width: 76px;
+    height: 45px;
+    border: none;
+    cursor: pointer;
+    list-style-type: none;
+}
+
+/*Проекты*/
+.headBtn3 {
+    font-family: 'Montserrat', sans-serif; /* Основной шрифт */
+    font-weight: 500; /* Средняя насыщенность */
+    position: absolute;
+    margin-left: 192px;
+    background-color: #1C1C1C;
+    color: #fff;
+    width: 76px;
+    height: 45px;
+    border: none;
+    cursor: pointer;
+    list-style-type: none;
+}
+
+/*Клиенты*/
+.headBtn4 {
+    font-family: 'Montserrat', sans-serif; /* Основной шрифт */
+    font-weight: 500; /* Средняя насыщенность */
+    position: absolute;
+    margin-left: 302px;
+    background-color: #1C1C1C;
+    color: #fff;
+    width: 76px;
+    height: 45px;
+    border: none;
+    cursor: pointer;
+    list-style-type: none;
+}
+
+/*Контакты*/
+.headBtn5 {
+    font-family: 'Montserrat', sans-serif; /* Основной шрифт */
+    font-weight: 500; /* Средняя насыщенность */
+    position: absolute;
+    margin-left: 412px;
+    background-color: #1C1C1C;
+    color: #fff;
+    width: 85px;
+    height: 45px;
+    border: none;
+    cursor: pointer;
+    list-style-type: none;
+}

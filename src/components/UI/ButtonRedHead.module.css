@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+
+.redBtnHead {
+    position: absolute;
+    margin-left: 1043px;
+    margin-top: 15px;
+    font-family: 'Montserrat', sans-serif; /* Основной шрифт */
+    font-weight: 600;
+    line-height: 130%;
+    background-color: #EE364A;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    width: 257px;
+    height: 49px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
