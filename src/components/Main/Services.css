@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+/*Блок услуг*/
+.servicesBlock {
+    width: 1161px;
+    height: 858px;
+    margin-top: 48px;
+    margin-left: 130px;
+}
+
+/*Услуги*/
+.services {
+    font-family: 'Montserrat', sans-serif; /* Основной шрифт */
+    font-weight: 500; /* Средняя насыщенность */
+    font-size: 40px;
+    margin-left: 10px;
+    color: #ffffff;
+}
+
+/* серые блоки под написью "Услуги"*/
+.BlockRectangle {
+    width: 1179px;
+    height: 786px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}

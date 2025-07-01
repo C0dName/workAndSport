@@ -15,8 +15,9 @@ const Header = () => {
                 <ButtonRedHead>ОСТАВИТЬ ЗАЯВКУ</ButtonRedHead>
             </div>
             <div className="imgTeamWS">
+
                 <ImgTeamWS/>
-                <div c></div>
+                <div className="blackGradient"></div>
             </div>
         </div>
     );

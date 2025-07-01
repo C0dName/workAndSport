@@ -1,0 +1,13 @@
+.services_block {
+    margin: 10px;
+    width: 373px;
+    height: 373px;
+    background-color: #333333;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background-color, opacity;
+}
+.services_block:hover {
+    opacity: 0.8;
+    background-color: #6D6D6D;
+}

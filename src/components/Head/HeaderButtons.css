@@ -4,6 +4,7 @@
     padding-inline-start: 0;
     list-style-type: none;
     margin: 0 0 0 0;
+
 }
 
 /*Блок кнопок*/
@@ -31,6 +32,8 @@
     border: none;
     cursor: pointer;
     list-style-type: none;
+    display: flex;
+    align-items: flex-start;
 }
 
 /*Услуги*/
@@ -46,6 +49,8 @@
     border: none;
     cursor: pointer;
     list-style-type: none;
+    display: flex;
+    align-items: flex-start;
 }
 
 /*Проекты*/
@@ -61,6 +66,8 @@
     border: none;
     cursor: pointer;
     list-style-type: none;
+    display: flex;
+    align-items: flex-start;
 }
 
 /*Клиенты*/
@@ -76,6 +83,8 @@
     border: none;
     cursor: pointer;
     list-style-type: none;
+    display: flex;
+    align-items: flex-start;
 }
 
 /*Контакты*/
@@ -91,4 +100,6 @@
     border: none;
     cursor: pointer;
     list-style-type: none;
+    display: flex;
+    align-items: flex-start;
 }
