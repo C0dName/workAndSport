@@ -5,9 +5,12 @@
     background-color: #333333;
     border-radius: 12px;
     cursor: pointer;
-    transition: background-color, opacity;
+
+    /*transition: background-color, opacity;*/
 }
 .services_block:hover {
-    opacity: 0.8;
-    background-color: #6D6D6D;
+    background-color: #535353;
+}
+.services_block:active {
+    background-color: rgba(83, 83, 83, 0.1);
 }

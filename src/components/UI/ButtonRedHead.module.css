@@ -19,3 +19,10 @@
     align-items: center;
     cursor: pointer;
 }
+.redBtnHead:hover {
+    background-color: #C32E3E;
+}
+.redBtnHead:active {
+    opacity: 50%;
+    background-color: #C32E3E;
+}
