@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+.GlobalInfo {
+    width: 1159px;
+    height: 274px;
+    margin-top: 80px;
+    margin-left: 141px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.number12 {
+    width: 250px;
+    height: 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 92px;
+    line-height: 130%;
+    color: #EE364A;
+
+}
+.dopInfo {
+    /* лет на рынке */
+    width: 243px;
+    height: 42px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 130%;
+    color: #FFFFFF;
+}
+
+
+.BtnInfo {
+    position: absolute;
+    margin-left: 451px;
+    margin-top: 225px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    line-height: 130%;
+    background-color: #EE364A;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    width: 257px;
+    height: 49px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.BtnInfo:hover {
+    background-color: #C32E3E;
+}
+.BtnInfo:active {
+    opacity: 50%;
+    background-color: #C32E3E;
+}

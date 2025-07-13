@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+.RussiaMapGlobal {
+    width: 1114px;
+    height: 594px;
+    margin-top: 80px;
+    margin-left: 163px;
+}
+.TopMap {
+    position: static;
+    width: 1114px;
+    height: 52px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 130%;
+    text-align: center;
+    color: #FFFFFF;
+}
+.SPB {
+    position: absolute;
+    width: 185px;
+    height: 75px;
+    margin-top: 153px;
+    margin-left: 186px;
+}
+
+.MSK {
+    position: absolute;
+    width: 104px;
+    height: 75px;
+    margin-top: 279px;
+    margin-left: 261px;
+}
+.Luga {
+    position: absolute;
+    width: 140px;
+    height: 33px;
+    margin-top: 229px;
+    margin-left: 121px;
+    display: flex;
+}
+.SrgPsd {
+    position: absolute;
+    width: 221px;
+    height: 33px;
+    margin-top: 229px;
+    margin-left: 298px;
+    display: flex;
+
+}
+.Pskov {
+    position: absolute;
+    width: 140px;
+    height: 33px;
+    margin-top: 262px;
+    margin-left: 103px;
+    display: flex;
+}
+.Vladivostok {
+    position: absolute;
+    width: 153px;
+    height: 69px;
+    margin-top: 407px;
+    margin-left: 735px;
+    display: flex;
+    flex-direction: column;
+}
+.MapBtn {
+    padding: 6px 20px;
+    gap: 10px;
+    border: none;
+    background: #EE364A;
+    border-radius: 6px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    text-align: center;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.MapBtn:hover {
+    background: #C32E3E;
+}
+
+
+
