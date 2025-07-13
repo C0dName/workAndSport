@@ -4,7 +4,6 @@ import classes from "./servicesBlock.module.css";
 const ServicesBlock = ({children}) => {
     return (
         <div className={classes.services_block}>
-<div>
             <svg style={{
                 marginTop: "26px",
                 marginLeft: "24px",
@@ -12,7 +11,6 @@ const ServicesBlock = ({children}) => {
             }} width="4" height="65" viewBox="0 0 4 65" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <line x1="2" y1="65" x2="2" y2="-1.12212e-09" stroke="#EE364A" strokeWidth="4"/>
             </svg>
-</div>
             <svg style={{
                 marginLeft: "24px",
                 marginTop: "333",

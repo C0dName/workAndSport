@@ -25,3 +25,35 @@
     display: flex;
     flex-wrap: wrap;
 }
+.TopTextBox {
+
+    width: 310px;
+    margin-top: 26px;
+    margin-left: 40.5px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 100%;
+    color: #FFFFFF;
+}
+
+.TopTextBox1 {
+    /* Спортивный ивент для вашей компании */
+    height: 39.6px;
+    width: 310px;
+    margin-top: 16px;
+    margin-left: 40.5px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    /* or 21px */
+
+    color: #FFFFFF;
+
+
+}

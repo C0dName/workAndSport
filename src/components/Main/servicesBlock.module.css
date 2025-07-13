@@ -5,8 +5,7 @@
     background-color: #333333;
     border-radius: 12px;
     cursor: pointer;
-
-    /*transition: background-color, opacity;*/
+    transition: background-color, opacity;
 }
 .services_block:hover {
     background-color: #535353;
