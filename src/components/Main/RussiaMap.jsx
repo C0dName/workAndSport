@@ -6,6 +6,8 @@ const RussiaMap = () => {
     const [isHovered1, setIsHovered1] = useState(false);
     const [isHovered2, setIsHovered2] = useState(false);
     const [isHovered3, setIsHovered3] = useState(false);
+    const [isHoveredMSK, setIsHoveredMSK] = useState(false);
+    const [isHoveredSPB, setIsHoveredSPB] = useState(false);
     return (
         <div className="RussiaMapGlobal">
             <div className="TopMap">География наших ивентов</div>
@@ -18,10 +20,17 @@ const RussiaMap = () => {
             }}>
                 <img style={{position: "absolute"}} src="/pics/RussiaMap.svg" alt="карта россии"/>
             </div>
-            <div className="SPB">
+            <div className="SPB"
+                 onMouseEnter={() => setIsHoveredSPB(true)}
+                 onMouseLeave={() => setIsHoveredSPB(false)}>
                 <button className="MapBtn">Санкт-Петербург</button>
+                {isHoveredSPB && (
+                    <img style={{
+                        position: "absolute",
+                        marginTop: "8px",
+                        marginLeft: "75.5px"}} src="/pics/RedPointCircleHover.svg"/>
+                )}
                 <img style={{
-                    position: "absolute",
                     marginTop: "8px",
                     marginLeft: "75.5px"
                 }} src="/pics/RedPointCircle.svg" alt="красный круг под питером"/>
@@ -32,19 +41,35 @@ const RussiaMap = () => {
                 {isHovered && (
                     <button className="MapBtn">Луга</button>
                 )}
+
                 <img style={{
                     position: "absolute",
                     marginLeft: "112px",
                     marginTop: "3px",
                 }} src="/pics/RedPointCircleMini.svg" alt="красный круг справа от луги"/>
+                {isHovered && (
+                    <img style={{
+                        position: "absolute",
+                        marginLeft: "112px",
+                        marginTop: "3px",
+                    }} src="/pics/RedPointCircleMiniHover.svg"/>
+                )}
             </div>
             <div className="SrgPsd"
                  onMouseEnter={() => setIsHovered1(true)}
                  onMouseLeave={() => setIsHovered1(false)}>
                 <img style={{
                     marginTop: "3px",
-                    marginRight: "8px"
+                    marginRight: "8px",
+                    marginBottom: "2px"
                 }} src="/pics/RedPointCircleMini.svg" alt="красный круг слева от сергиева пасада"/>
+                {isHovered1 && (
+                    <img style={{
+                        position: "absolute",
+                        marginTop: "3px",
+                        marginRight: "8px"
+                    }} src="/pics/RedPointCircleMiniHover.svg"/>
+                )}
                 {isHovered1 && (
                     <button className="MapBtn">Сергиев Пасад</button>
                 )}
@@ -58,10 +83,25 @@ const RussiaMap = () => {
                     marginLeft: "112px"
                 }} src="/pics/RedPointCircleMini.svg" alt="красный круг слева от сергиева пасада"/>
                 {isHovered2 && (
+                    <img style={{
+                        position: "absolute",
+                        marginTop: "3px",
+                        marginLeft: "112px"
+                    }} src="/pics/RedPointCircleMiniHover.svg"/>
+                )}
+                {isHovered2 && (
                     <button className="MapBtn">Псков</button>
                 )}
             </div>
-            <div className="MSK">
+            <div className="MSK"
+                 onMouseEnter={() => setIsHoveredMSK(true)}
+                 onMouseLeave={() => setIsHoveredMSK(false)}>
+                {isHoveredMSK && (
+                    <img style={{
+                        position: "absolute",
+                        marginLeft: "35px",
+                        marginBottom: "8px"}} src="/pics/RedPointCircleHover.svg"/>
+                )}
                 <img style={{
                     marginLeft: "35px",
                     marginBottom: "8px"
@@ -79,6 +119,13 @@ const RussiaMap = () => {
                     marginTop: "41px",
                     marginLeft: "63px"
                 }} src="/pics/RedPointCircleMini.svg" alt="красный круг слева от сергиева пасада"/>
+                {isHovered3 && (
+                    <img style={{
+                        position: "absolute",
+                        marginTop: "41px",
+                        marginLeft: "63px"
+                    }} src="/pics/RedPointCircleMiniHover.svg"/>
+                )}
             </div>
         </div>
     );
