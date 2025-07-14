@@ -3,6 +3,7 @@ import Header from "./components/Head/Header";
 import Services from "./components/Main/Services";
 import GlobalInfo from "./components/Main/GlobalInfo";
 import RussiaMap from "./components/Main/RussiaMap";
+import Project from "./components/Main/Project";
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         <Services/>
         <GlobalInfo/>
         <RussiaMap/>
+        <Project/>
 
 
 

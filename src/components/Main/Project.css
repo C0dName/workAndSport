@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+.ProjectMain {
+    width: 1161px;
+    height: 591px;
+    margin-left: 140px;
+    margin-top: 80px;
+}
+.ProjectMainTopBlock {
+    width: 1161px;
+    height: 52px;
+}
+.ProjectMainTopHead {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 130%;
+    color: #FFFFFF;
+}
+.ProjectMainImageBlock {
+    width: 1161px;
+    height: 499px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+.ProjectMainImage {
+    width: 374px;
+    height: 239px;
+}
