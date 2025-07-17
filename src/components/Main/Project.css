@@ -9,8 +9,11 @@
 .ProjectMainTopBlock {
     width: 1161px;
     height: 52px;
+    display: flex;
 }
 .ProjectMainTopHead {
+    width: 334px;
+    height: 52px;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -31,3 +34,75 @@
     width: 374px;
     height: 239px;
 }
+.allProject {
+    width: 187px;
+    height: 28px;
+    margin-top: 24px;
+    margin-left: 640px;
+    background-color: rgb(255, 255, 255, 0.1);
+    border-radius: 5px;
+    border: none;
+    display: flex;
+}
+.allProject:hover {
+    background-color: rgb(255, 255, 255, 0.2);
+}
+.allProject:active {
+    background-color: #EE364A;
+}
+.allProjectText {
+    width: 109px;
+    height: 18px;
+    margin-top: 5px;
+    margin-left: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 130%;
+    color: #FFFFFF;
+    display: flex;
+
+}
+.StrelkaRight {
+    position: absolute;
+    margin-left: 131px;
+    margin-top: 7px;
+    width: 46px;
+}
+.image2 {
+    position: absolute;
+    margin-left: 394px;
+    width: 374px;
+    height: 240px;
+    background-color: rgb(17, 17, 17, 0.5);
+}
+/* День Города - Балашиха */
+.DayCityBalash {
+    margin-top: 143px;
+    margin-left: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+    color: #FFFFFF;
+}
+.familyDay {
+    margin-top: 5px;
+    margin-left: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    color: #FFFFFF;
+}
+.imageStrelka{
+    width: 39px;
+    margin-top: 18px;
+    margin-left: 23px;
+}
+
+
+
