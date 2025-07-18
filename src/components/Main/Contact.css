@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+.Contact {
+    width: 1160px;
+    height: 282px;
+    margin-top: 80px;
+    margin-left: 150px;
+    display: flex;
+}
+.ContactNumber {
+    width: 290px;
+    height: 280.76px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ContactText {
+    margin: 0 0 0 0;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 130%;
+    color: #FFFFFF;
+}
+.ContactText2 {
+    margin: 40px 0 0 0;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 130%;
+    color: #FFFFFF;
+}
+.ContactTextNumber {
+    margin: 5px 0 0 0;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 130%;
+    color: #FFFFFF;
+}
+.Social {
+    width: 132px;
+    height: 40px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.SocialIconBlock {
+    width: 40px;
+    height: 40px;
+}
+.SocialIcon {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    opacity: 0.5;
+}
+.SocialIcon:hover {
+    opacity: 100%;
+}
+.SocialIconRed {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+}
+
+
+

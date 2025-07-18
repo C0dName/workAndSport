@@ -5,6 +5,7 @@ import GlobalInfo from "./components/Main/GlobalInfo";
 import RussiaMap from "./components/Main/RussiaMap";
 import Project from "./components/Main/Project";
 import Choose from "./components/Main/Сhoose";
+import ContactGlobal from "./components/Main/ContactGlobal";
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <RussiaMap/>
         <Project/>
         <Choose/>
+        <ContactGlobal/>
 
 
 
