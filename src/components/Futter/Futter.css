@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+.futterBlock {
+    width: 1440px;
+    height: 342px;
+    background-color: #111111;
+    margin-top: 80px;
+}

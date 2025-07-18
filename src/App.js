@@ -6,6 +6,7 @@ import RussiaMap from "./components/Main/RussiaMap";
 import Project from "./components/Main/Project";
 import Choose from "./components/Main/Сhoose";
 import ContactGlobal from "./components/Main/ContactGlobal";
+import Futter from "./components/Futter/Futter";
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Project/>
         <Choose/>
         <ContactGlobal/>
+        <Futter/>
 
 
 
