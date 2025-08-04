@@ -1,17 +1,18 @@
 /*Обнуление отступов для UL*/
 .zeroUl {
-    position: absolute;
     padding-inline-start: 0;
     list-style-type: none;
+    width: 497px;
     margin: 0 0 0 0;
+    display: flex;
+    justify-content: space-around;
 
 }
 
 /*Блок кнопок*/
 .blockBtn {
-    position: absolute;
     margin-top: 29px;
-    margin-left: 472px;
+    margin-left: 105.09px;
     margin-bottom: 5px;
     width: 497px;
     height: 45px;
@@ -21,13 +22,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 /*О нас*/
-.headBtn1 {
+.headBtn {
     font-family: 'Montserrat', sans-serif; /* Основной шрифт */
     font-weight: 500; /* Средняя насыщенность */
-    position: absolute;
     background-color: #1C1C1C;
     color: #fff;
-    width: 53px;
+    width: auto;
     height: 45px;
     border: none;
     cursor: pointer;
@@ -35,101 +35,10 @@
     display: flex;
     align-items: flex-start;
 }
-.headBtn1:hover {
+.headBtn:hover {
     opacity: 50%;
     border-bottom-style: solid;
     border-bottom-width: 3px;
     border-bottom-color: #EE364A;
 }
 
-/*Услуги*/
-.headBtn2 {
-    font-family: 'Montserrat', sans-serif; /* Основной шрифт */
-    font-weight: 500; /* Средняя насыщенность */
-    position: absolute;
-    margin-left: 82px;
-    background-color: #1C1C1C;
-    color: #fff;
-    width: 76px;
-    height: 45px;
-    border: none;
-    cursor: pointer;
-    list-style-type: none;
-    display: flex;
-    align-items: flex-start;
-}
-.headBtn2:hover {
-    opacity: 50%;
-    border-bottom-style: solid;
-    border-bottom-width: 3px;
-    border-bottom-color: #EE364A;
-}
-
-/*Проекты*/
-.headBtn3 {
-    font-family: 'Montserrat', sans-serif; /* Основной шрифт */
-    font-weight: 500; /* Средняя насыщенность */
-    position: absolute;
-    margin-left: 192px;
-    background-color: #1C1C1C;
-    color: #fff;
-    width: 76px;
-    height: 45px;
-    border: none;
-    cursor: pointer;
-    list-style-type: none;
-    display: flex;
-    align-items: flex-start;
-}
-.headBtn3:hover {
-    opacity: 50%;
-    border-bottom-style: solid;
-    border-bottom-width: 3px;
-    border-bottom-color: #EE364A;
-}
-
-/*Клиенты*/
-.headBtn4 {
-    font-family: 'Montserrat', sans-serif; /* Основной шрифт */
-    font-weight: 500; /* Средняя насыщенность */
-    position: absolute;
-    margin-left: 302px;
-    background-color: #1C1C1C;
-    color: #fff;
-    width: 76px;
-    height: 45px;
-    border: none;
-    cursor: pointer;
-    list-style-type: none;
-    display: flex;
-    align-items: flex-start;
-}
-.headBtn4:hover {
-    opacity: 50%;
-    border-bottom-style: solid;
-    border-bottom-width: 3px;
-    border-bottom-color: #EE364A;
-}
-
-/*Контакты*/
-.headBtn5 {
-    font-family: 'Montserrat', sans-serif; /* Основной шрифт */
-    font-weight: 500; /* Средняя насыщенность */
-    position: absolute;
-    margin-left: 412px;
-    background-color: #1C1C1C;
-    color: #fff;
-    width: 85px;
-    height: 45px;
-    border: none;
-    cursor: pointer;
-    list-style-type: none;
-    display: flex;
-    align-items: flex-start;
-}
-.headBtn5:hover {
-    opacity: 50%;
-    border-bottom-style: solid;
-    border-bottom-width: 3px;
-    border-bottom-color: #EE364A;
-}

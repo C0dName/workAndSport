@@ -7,19 +7,19 @@ const HeaderButtons = () => {
         <div  className="blockBtn">
             <ul className="zeroUl">
                 <li>
-                    <button  className="headBtn1">О нас</button>
+                    <button  className="headBtn">О нас</button>
                 </li>
                 <li>
-                    <button className="headBtn2">Услуги▼</button>
+                    <button className="headBtn">Услуги▼</button>
                 </li>
                 <li>
-                    <button className="headBtn3">Проекты</button>
+                    <button className="headBtn">Проекты</button>
                 </li>
                 <li>
-                    <button className="headBtn4">Клиенты</button>
+                    <button className="headBtn">Клиенты</button>
                 </li>
                 <li>
-                    <button className="headBtn5">Контакты</button>
+                    <button className="headBtn">Контакты</button>
                 </li>
             </ul>
         </div>
