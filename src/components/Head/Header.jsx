@@ -11,7 +11,9 @@ const Header = () => {
         <div>
             <div className="header">
                 <LogoHeader/>
-                <HeaderButtons/>
+                <div className="blockBtn">
+                    <HeaderButtons/>
+                </div>
                 <ButtonRedHead>ОСТАВИТЬ ЗАЯВКУ</ButtonRedHead>
             </div>
             <div className="imgTeamWS">

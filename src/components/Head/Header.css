@@ -6,6 +6,15 @@
     background: #1C1C1C;
     display: flex;
 }
+/*Блок кнопок*/
+.blockBtn {
+    margin-top: 29px;
+    margin-left: 105.09px;
+    margin-bottom: 5px;
+    width: 497px;
+    height: 45px;
+    display: flex;
+}
 
 .imgTeamWS {
 

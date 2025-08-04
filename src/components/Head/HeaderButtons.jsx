@@ -4,7 +4,6 @@ import './HeaderButtons.css';
 
 const HeaderButtons = () => {
     return (
-        <div  className="blockBtn">
             <ul className="zeroUl">
                 <li>
                     <button  className="headBtn">О нас</button>
@@ -22,7 +21,6 @@ const HeaderButtons = () => {
                     <button className="headBtn">Контакты</button>
                 </li>
             </ul>
-        </div>
     );
 };
 
