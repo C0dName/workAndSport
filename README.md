@@ -1,3 +1,6 @@
+Нашел на FL.ru макет, и решил сверстать на React, потом понял, что реакт больше подходит для SPA проектов.
+Поэтому сверстал страницу и переключился на освоение Next.js
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
